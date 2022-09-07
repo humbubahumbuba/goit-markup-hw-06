@@ -476,9 +476,15 @@
           </ul>
         </div>
         <div >
-          <p>підпищіться на розсилку</p>
+          <p class="footer-submit-text">підпищіться на розсилку</p>
           <form class="email-footer">
             <input class="footer-submit" type="email" placeholder="email">
+            <button type="submit" class="footer-submit-btn">Підписатися</button>
+            <span>
+              <svg>
+                <use href=""></use>
+              </svg>
+            </span>
           </form>
         </div>
         </div>
@@ -498,27 +504,29 @@
   
           <form class="modal-form">
             <ul>
-            <label for="name">Імʼя</label>
+              <li>
+                <label for="name">Імʼя</label>
             <input type="text" name="name" id="name"> 
-            </ul>
-            <ul>
-              <label for="tel">Телфон</label>
-            <input type="text" name="tel" id="tel">
-            </ul>
-            <ul>
-              <label for="email">Пошта</label>
+              </li>
+              <li>
+                <label for="tel">Телфон</label>
+              <input type="text" name="tel" id="tel">
+              </li>
+              <li>
+            <label for="email">Пошта</label>
             <input type="text" name="email" id="email">
-            </ul>
-            <ul>
-              <label for="comment">Коментар</label>
+              </li>
+              <li>
+                <label for="comment">Коментар</label>
             <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-            </ul>
-            <ul>
-              <input type="checkbox" name="checkbox" value="document" id="checkbox">
+              </li>
+              <li>
+                 <input type="checkbox" name="checkbox" value="document" id="checkbox">
             <label for="checkbox">Погоджуюся з розсилкою та приймаю Умови договору</label>
-            </ul>
-           
+              </li>
+          
             <button type="submit">Відправити</button>
+            </ul>
 
           </form>
         </div>
