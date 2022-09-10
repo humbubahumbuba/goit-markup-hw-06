@@ -849,13 +849,12 @@ padding-left: 15px;
 .footer-submit {
   background-color: #2f303a;
   color: #ffffff;
-  /* padding-left: 15px; */
+  padding-left: 15px;
 }
 .footer-submit::placeholder {
   color: rgba(255, 255, 255, 0.6);
-
-  padding-left: 15px;
 }
+
 .footer-submit-text {
   margin-bottom: 20px;
   font-family: "Roboto";
