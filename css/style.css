@@ -835,21 +835,29 @@ padding-left: 15px;
 .join-list-link:focus {
   background-color: var(--accent-color);
 }
+
+/* =========================submit-footer===================== */
 .submit-footer-container {
   display: block;
   align-items: baseline;
   margin-left: auto;
 }
-/* .email-footer {
-} */
+.email-footer {
+  display: flex;
+  align-items: center;
+}
 .footer-submit {
   background-color: #2f303a;
+  color: #ffffff;
+  /* padding-left: 15px; */
 }
 .footer-submit::placeholder {
   color: rgba(255, 255, 255, 0.6);
+
   padding-left: 15px;
 }
 .footer-submit-text {
+  margin-bottom: 20px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -860,20 +868,42 @@ padding-left: 15px;
   color: #ffffff;
 }
 .footer-submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 200px;
   height: 50px;
   background: #2196f3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
+  border: none;
+  cursor: pointer;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  transition: background-color var(--animation-dur-dir);
 }
+.footer-submit-btn:hover,
+.footer-submit-btn:focus {
+  color: #ffffff;
+  background-color: var(--button-accent-color);
+}
+
 .button-submit-icon {
   margin-left: 10px;
 }
 
 .footer-submit {
-  width: 358px;
-  height: 50px;
+  min-width: 358px;
+  min-height: 50px;
+  margin-right: 12px;
+
   background: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -1087,6 +1117,9 @@ padding-left: 15px;
 
 .modal-form-check:focus + .modal-form-own-checkbox {
   box-shadow: 0 0 0 2px rgba(97, 238, 51, 0.5);
+}
+.modal-link {
+  color: var(--accent-color);
 }
 
 .modal-form-sumbit {
