@@ -1001,6 +1001,7 @@ padding-left: 15px;
 
 .modal-form-field {
   margin-bottom: 10px;
+
   position: relative;
   display: flex;
   flex-direction: column;
